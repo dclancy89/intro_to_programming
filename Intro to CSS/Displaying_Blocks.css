@@ -1,0 +1,39 @@
+img {
+  width: 100px;
+  height: auto;
+}
+
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background: tan;
+}
+
+header, section {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header * {
+  display: inline-block;
+}
+
+section .row img {
+  border: 2px solid black;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+section .row img:nth-child(odd) {
+  background: #84B5EB;
+}
+
+section .row img:nth-child(even) {
+  background: #F16A73;
+}
